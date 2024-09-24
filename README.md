@@ -1,5 +1,5 @@
 ﻿# **CryptoConverterLibrary**
-**Leave Me A Star**
+**Leave Me A Star ⭐**
 
 
 
