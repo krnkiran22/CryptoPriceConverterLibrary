@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 
-library CryptoConverterLibrary {
+library CryptoPriceConverterLibrary {
     // Function to convert any crypto amount to another using Chainlink price feeds
     function convertCrypto(
         uint256 amount, // Amount in the source crypto's smallest unit
