@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "./CryptoConverterLibrary.sol"; // Import the library
+import "./CryptoPriceConverterLibrary.sol"; // Import the library
 
 contract ExampleCryptoConversion {
-    using CryptoConverterLibrary for uint256; // Attach the library to the uint256 type
+    using CryptoPriceConverterLibrary for uint256; // Attach the library to the uint256 type
 
     // Function to convert crypto using the library
     function convertMyCrypto(
